@@ -1,0 +1,11 @@
+*.dyn_hi
+*.dyn_o
+*.hi
+*.o
+
+# private messages
+output*
+*history*
+
+# the executable
+parse_html_and_post_to_server

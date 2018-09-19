@@ -1,0 +1,73 @@
+html, body{
+    height:100%;
+}
+
+.container, .app {
+  height: 100%;
+}
+
+.viewer{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: block; border:solid #000 1px
+}
+
+.infinite_scroll {
+  height:100%;
+  overflow:auto;
+}
+
+.viewer_content {
+  padding:0;
+  overflow: scroll; overflow-x:hidden;
+  height:100%
+}
+
+.control_panel {
+  padding:0;
+  overflow: scroll; overflow-x:hidden;
+  height:100%
+}
+
+.tagDeleteButton {
+  padding:0 !important;
+}
+
+.messages {
+  background-color: #F1F1F1;
+  border: 1px solid #009000;
+  padding: 2px 4px;
+}
+
+.message {
+  margin: 2px 0px;
+  max-width: 80%;
+}
+
+.message > .timestamp {
+  font-family: "Courier New", monospace;
+  font-size: 8pt;
+}
+
+.message > .remote-resource {
+  font-family: "Courier New", monospace;
+  font-size: 8pt;
+}
+
+.incoming_message {
+  text-align: left;
+}
+
+.incoming_message > .text > span {
+  background-color: #CCD9FF;
+}
+
+.outgoing_message {
+  text-align: right;
+  margin-left: auto;
+}
+
+.outgoing_message > .text > span {
+  background-color: #BAE691;
+}
