@@ -7,10 +7,10 @@ Display messages extracted by a third-party tool.
   - Jump to your favorite points in time to relive special moments
   - Bookmark where you paused to continue next time
 - Bulk loading
-  - Load any number of messages in bulk with one click
+  - Load any number of messages in bulk with one click (instead of keep scrolling up)
 
 ## Other features (similar to the default viewer of messaging apps)
-- Scroll upward to load messages
+- Scroll upward to load older messages
 - Search (including messages that have not been loaded)
 
 ## How it looks
