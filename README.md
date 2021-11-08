@@ -14,10 +14,21 @@ Display messages extracted by a third-party tool.
 - Search (including messages that have not been loaded)
 
 ## Screenshot
-<screenshot>
+![Annotated Screenshot](./readme-images/annotated_viewer.png)
+
+### Key
+**Left:** Messages. Scroll upward to load older messages.  
+**1:** Load a specified number of older messages in bulk (instead of keep scrolling up).  
+**2:** Text search. It can return messages that have not been loaded in the client. Double click on a search result to load and jump to the message.  
+**3:** Add tag. Double click on a message on the left to select it for tagging. Then enter a tag name for that message.  
+**4:** Tagged messages displayed under tag names. Double click on a message to load and jump to the message.
 
 ## About the system
-<pic>
+![System Diagram](./readme-images/system_diagram.png)
+
+1. Extract WhatsApp messages from phone using a third-party tool into an HTML file similar to ./haskell/sample_messages.html
+2. Haskell script parses the HTML file and persists messages into MongoDB by POST-ing to the Express server. Attributes stored include direction (incoming/outgoing), type (text/img), timestamp, and actual message content
+3. Client communicates with server via a REST API, starting by requesting latest messages and tags
 
 ## How to run
 1. Host a MongoDB at localhost:27017 (configured at ./express/server/server.js)
