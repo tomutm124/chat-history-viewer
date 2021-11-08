@@ -26,7 +26,7 @@ Display messages extracted by a third-party tool.
 ![System Diagram](./readme-images/system_diagram.png)
 
 1. Extract WhatsApp messages from phone using a third-party tool into an HTML file similar to ./haskell/sample_messages.html
-2. Haskell script parses the HTML file and persists messages into MongoDB by POST-ing to the Express server. Attributes stored include direction (incoming/outgoing), type (text/img), timestamp, and actual message content
+2. Haskell script parses the HTML file and persists messages into MongoDB by POST-ing to the Express server. Attributes stored include direction (incoming/outgoing), type (text/img), timestamp, and actual message content (text or image encoded in base64)
 3. Client communicates with server via a REST API, starting by requesting latest messages and tags
 
 ## How to run
