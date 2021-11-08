@@ -13,10 +13,9 @@ Display messages extracted by a third-party tool.
 - Scroll upward to load messages
 - Search (including messages that have not been loaded)
 
-## Screenshot
+## How it looks
 ![Annotated Screenshot](./readme-images/annotated_viewer.png)
 
-### Key
 **Left:** Messages. Scroll upward to load older messages.  
 **1:** Load a specified number of older messages in bulk (instead of keep scrolling up).  
 **2:** Text search. It can return messages that have not been loaded in the client. Double click on a search result to load and jump to the message.  
