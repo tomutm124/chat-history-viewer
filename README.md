@@ -1,5 +1,5 @@
 # chat-history-viewer
-A more pleasant experience to view conversation history. 
+A more pleasant experience to view chat history. 
 Display messages extracted by a third-party tool.
 
 ## Features unique to this viewer
